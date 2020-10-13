@@ -1,44 +1,27 @@
 # EComPr
-E Commerce Application - Augular/Node.js
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
 
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-✅ Admin panel
+## Code scaffolding
 
-1.add/delete/edit Products
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Add products (title,price,main product image, product gallery images)
+## Build
 
-2.View orders & order management 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Complete order>> complete  on dashboard & send a email to buyer
-Cancel order >> cancel on dashboard & send an email to buyer 
+## Running unit tests
 
-View orders with client details 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-3.Admin password change option
- 
-4. Add new admins option 
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Further help
 
-✅ User (buyer) panel
-
-1.Register/Login
-
-Register using email & password 
-Login with email & password 
-Forget password by email
-
-2. Add to cart products
-3. Checkout cart products
-
- (Chekout ekedi shipping adress eka input karanna denna. Ita passe checkout button eka. Checkout button eka click krma eka pending order ekak wdhta yanawa admin panel ekata)
-
-Checkout button eka click karama Order Received thank you kiyla wge pennanna user ta.
-
-4. My orders tab
-
-Pending orders / completed orders tika pennnana userta product name ekath ekka.
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
